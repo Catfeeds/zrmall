@@ -1,0 +1,289 @@
+---------------------------------------------------------------
+[ 2018-04-23T11:11:21+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.xfn.com/ [运行时间：0.145467s][吞吐率：6.87req/s] [内存消耗：2,060.05kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp\www\xfn\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xfn.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'ZRM_',
+  'domain' => 'zrshop.com',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): No session id returned by function[C:\wamp\www\xfn\thinkphp\library\think\Session.php:108]
+---------------------------------------------------------------
+[ 2018-04-23T11:16:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.xfn.com/ [运行时间：0.170615s][吞吐率：5.86req/s] [内存消耗：2,060.61kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp\www\xfn\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'welcome'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'welcome',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xfn.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'ZRM_',
+  'domain' => 'zrshop.com',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): No session id returned by function[C:\wamp\www\xfn\thinkphp\library\think\Session.php:108]
+---------------------------------------------------------------
+[ 2018-04-23T11:16:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ info ] www.xfn.com/index.php [运行时间：0.148178s][吞吐率：6.75req/s] [内存消耗：2,060.59kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp\www\xfn\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'welcome'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'welcome',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xfn.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'ZRM_',
+  'domain' => 'zrshop.com',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): No session id returned by function[C:\wamp\www\xfn\thinkphp\library\think\Session.php:108]
+---------------------------------------------------------------
+[ 2018-04-23T11:16:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api
+[ info ] www.xfn.com/index.php/api [运行时间：0.147754s][吞吐率：6.77req/s] [内存消耗：2,060.54kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp\www\xfn\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'welcome'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'welcome',
+    1 => 'api',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xfn.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'ZRM_',
+  'domain' => 'zrshop.com',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): No session id returned by function[C:\wamp\www\xfn\thinkphp\library\think\Session.php:108]
+---------------------------------------------------------------
+[ 2018-04-23T11:18:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/
+[ info ] www.xfn.com/index.php/api/ [运行时间：0.129734s][吞吐率：7.71req/s] [内存消耗：2,060.63kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp\www\xfn\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'welcome'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'welcome',
+    1 => 'api',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xfn.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'xfnc_',
+  'domain' => 'xfn.com',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): No session id returned by function[C:\wamp\www\xfn\thinkphp\library\think\Session.php:108]
+---------------------------------------------------------------
+[ 2018-04-23T11:18:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/
+[ info ] www.xfn.com/index.php/api/ [运行时间：0.127069s][吞吐率：7.87req/s] [内存消耗：2,060.92kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp\www\xfn\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'welcome'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'welcome',
+    1 => 'api',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xfn.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'xfnc_',
+  'domain' => 'xfn.com',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): No session id returned by function[C:\wamp\www\xfn\thinkphp\library\think\Session.php:108]
+---------------------------------------------------------------
+[ 2018-04-23T11:18:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/api/
+[ info ] www.xfn.com/index.php/api/ [运行时间：0.135360s][吞吐率：7.39req/s] [内存消耗：2,060.93kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp\www\xfn\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'welcome'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'welcome',
+    1 => 'api',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.xfn.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'xfnc_',
+  'domain' => 'xfn.com',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): No session id returned by function[C:\wamp\www\xfn\thinkphp\library\think\Session.php:108]
+---------------------------------------------------------------
+[ 2018-04-23T11:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.xfn.com/ [运行时间：0.152336s][吞吐率：6.56req/s] [内存消耗：2,332.94kb] [文件加载：75]
+[ info ] [ LANG ] C:\wamp\www\xfn\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.xfn.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'xfnc_',
+  'domain' => 'xfn.com',
+  'type' => 'memcached',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Response @response_send [ RunTime:0.001245s ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): No session id returned by function[C:\wamp\www\xfn\thinkphp\library\think\Session.php:108]
